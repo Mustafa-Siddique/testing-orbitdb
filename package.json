@@ -9,18 +9,24 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@orbitdb/core": "^2.2.0",
+    "@orbitdb/identity-provider-did": "^1.0.2",
+    "helia": "^4.2.5",
+    "ipfs-core": "^0.18.1",
+    "key-did-provider-ed25519": "^4.0.2",
+    "key-did-resolver": "^4.0.0",
+    "next": "14.2.7",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.7"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.7",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.7"
+    "typescript": "^5"
   }
 }
